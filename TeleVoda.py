@@ -34,7 +34,7 @@ def reminderprinatie(message):
     try:
         global reminder,reminder_old,reminder_sum
         command,tim = message.text.split()
-        reminder = int(tim) * 60
+        reminder = int(tim) * 3600
         reminder_old = reminder 
         reminder_sum += reminder
         reminderr(reminder)
