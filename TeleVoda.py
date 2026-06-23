@@ -2,7 +2,7 @@ import telebot
 import requests
 import time
 from telebot import types
-bot = telebot.TeleBot('8708882201:AAE7Mz50Sb_CpPOAGRAwQVncm4EehIvi-WY')
+bot = telebot.TeleBot('ВАШ ТОКЕН')
 voda = 0
 voda_old = 0
 voda_sum = 0
